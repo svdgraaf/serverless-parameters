@@ -1,0 +1,16 @@
+{
+  "name": "serverless-parameters",
+  "version": "0.0.1",
+  "devDependencies": {},
+  "license": "MIT",
+  "repository": {
+    "git": "https://github.com/svdgraaf/github-codebuild-webhook"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "aws-sdk": "^2.7.19",
+    "bluebird": "^3.4.0",
+    "chalk": "^1.1.1",
+    "lodash": "^4.13.1"
+  }
+}

@@ -19,15 +19,15 @@ After installation, you can now add `paramaters` to the `custom` key:
 ```
 custom:
   parameters:
-    enable_feature_x:
+    EnableFeatureX:
       Type: String
       AllowedValues: yes,no
       Default: yes
       Description: Enable feature X
-    vpc_id:
+    VPCId:
       Type: AWS::EC2::VPC::Id
       Description: Select the VPC you want to use
-    some_env_var_prefilled:
+    SomeEnvVarPrefilled:
       Type: String
       Default: ${env:MY_ENV_VAR}
       Description: A default parameter, filled with a value from your env when deployed with `sls deploy`
@@ -41,9 +41,9 @@ provider:
   name: aws
   environment:
     FEATURE_X:
-      Ref: enable_feature_x
+      Ref: EnableFeatureX
     some_env_var:
-      Ref: some_env_var_prefilled
+      Ref: SomeEnvVarPrefilled
 ```
 
 Todo

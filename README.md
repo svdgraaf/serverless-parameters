@@ -14,7 +14,7 @@ plugins:
 Usage
 -----
 
-After installation, you can now add `paramaters` to the `custom` key:
+After installation, you can now add `parameters` to the `custom` key:
 
 ```
 custom:

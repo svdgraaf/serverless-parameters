@@ -33,7 +33,7 @@ custom:
       Description: A default parameter, filled with a value from your env when deployed with `sls deploy`
 ```
 
-All the properties are added to the template as-is, so you can use any of the [CloudFormation parameter properties] (http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html).
+All the properties are added to the template as-is, so you can use any of the [CloudFormation parameter properties](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html).
 
 You can then add Ref's on the places where you want to use them, eg in your environment settings:
 ```

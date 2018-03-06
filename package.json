@@ -1,8 +1,14 @@
 {
   "name": "serverless-parameters",
   "version": "0.0.4",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
   "repository": {
     "git": "https://github.com/svdgraaf/serverless-parameters"
   },

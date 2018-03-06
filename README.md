@@ -49,4 +49,4 @@ provider:
 Todo
 ----
 
-Add option for adding `AWS::CloudFormation::Interface` descriptions and such. PR's are welcome!
+Add option for adding `AWS::CloudFormation::Interface` descriptions and such. PR's are most welcome!

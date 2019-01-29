@@ -1,8 +1,8 @@
 {
   "name": "serverless-parameters",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "devDependencies": {
-    "jest": "^22.4.2"
+    "jest": "^22.4.4"
   },
   "license": "MIT",
   "scripts": {
@@ -14,6 +14,6 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "lodash": "^4.13.1"
+    "lodash": "^4.17.11"
   }
 }

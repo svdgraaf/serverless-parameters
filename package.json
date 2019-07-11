@@ -15,5 +15,8 @@
   "main": "lib/index.js",
   "dependencies": {
     "lodash": "^4.17.11"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
   }
 }

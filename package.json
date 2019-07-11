@@ -1,6 +1,6 @@
 {
   "name": "serverless-parameters",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "devDependencies": {
     "jest": "^24.8.0"
   },

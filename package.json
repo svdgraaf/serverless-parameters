@@ -2,7 +2,7 @@
   "name": "serverless-parameters",
   "version": "0.1.0",
   "devDependencies": {
-    "jest": "^26.1.0"
+    "jest": "^26.6.0"
   },
   "license": "MIT",
   "scripts": {
